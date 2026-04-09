@@ -36,10 +36,11 @@ En production, une API peut être indisponible. Le mécanisme de fallback
 jamais — principe de résilience fondamental en Data Engineering.
 
 ## 3. Architecture ETL
-
+```
 CSV → extraire_ventes() ─────────────────────┐
 API → extraire_taux_change() ─────────────────┼→ charger_dans_duckdb() → Dashboard
 SQLite → extraire_budgets() ─────────────────┘
+```
 
 Chaque fonction a une responsabilité unique — principe de séparation
 des responsabilités appliqué au Data Engineering.
