@@ -1,0 +1,21 @@
+date,produit,categorie,quantite,prix_unitaire,departement
+2024-01-05,Laptop Dell,Informatique,3,1200,Commercial
+2024-01-08,Souris Logitech,Informatique,15,45,RH
+2024-01-10,Chaise ergonomique,Mobilier,5,350,Finance
+2024-01-12,Ecran 27 pouces,Informatique,8,450,Commercial
+2024-01-15,Bureau standing,Mobilier,3,600,Marketing
+2024-02-02,Laptop HP,Informatique,5,1100,Finance
+2024-02-05,Clavier mécanique,Informatique,12,120,Commercial
+2024-02-10,Lampe de bureau,Mobilier,20,80,RH
+2024-02-14,Webcam HD,Informatique,10,150,Marketing
+2024-02-18,Armoire de rangement,Mobilier,4,400,Finance
+2024-03-01,Laptop Lenovo,Informatique,6,1050,Commercial
+2024-03-05,Casque audio,Informatique,18,200,RH
+2024-03-10,Table de réunion,Mobilier,2,1500,Direction
+2024-03-15,Imprimante laser,Informatique,4,500,Finance
+2024-03-20,Fauteuil direction,Mobilier,3,900,Direction
+2024-04-02,Laptop Apple,Informatique,4,1800,Marketing
+2024-04-08,Switch réseau,Informatique,6,300,Informatique
+2024-04-12,Canapé salle attente,Mobilier,2,1200,RH
+2024-04-18,Serveur NAS,Informatique,2,2000,Informatique
+2024-04-22,Ecran incurvé,Informatique,5,650,Commercial
