@@ -48,6 +48,8 @@ Le dashboard Streamlit consolide les 3 sources et affiche :
 - **Suivi budgétaire** — tableau avec alertes automatiques si > 70% consommé
 - **Données brutes** — section dépliable pour accéder aux données sources
 
+![Exemple de Dashboard](docs/dashborard_dataflow.png)
+
 ---
 
 ## 🚀 Installation & Lancement
