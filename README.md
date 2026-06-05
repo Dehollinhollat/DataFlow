@@ -1,15 +1,15 @@
-# 🟢 DataFlow — Pipeline ETL & Dashboard Financier Temps Réel
+# DataFlow - Pipeline ETL & Dashboard Financier Temps Réel
 
 > Projet personnel réalisé dans le cadre d'une formation MBA Big Data & IA
 > pour développer des compétences concrètes en Data Engineering et visualisation.
 
 ---
 
-## 📌 Problématique
+## Problématique
 
 Une direction financière veut consolider automatiquement des données
 provenant de plusieurs sources hétérogènes dans un dashboard mis à jour
-en temps réel — sans intervention manuelle.
+en temps réel - sans intervention manuelle.
 
 DataFlow automatise ce cycle de bout en bout : extraction depuis 3 sources,
 transformation, chargement dans une base analytique, et restitution dans
@@ -17,17 +17,17 @@ un dashboard interactif.
 
 ---
 
-## 🔄 Architecture ETL
+## Architecture ETL
 
 ```
-[CSV local — Ventes]
-[API publique — Taux de change]   →   [ETL Python]   →   [DuckDB]   →   [Dashboard Streamlit]
-[SQLite — Budgets départements]
+[CSV local - Ventes]
+[API publique - Taux de change]   →   [ETL Python]   →   [DuckDB]   →   [Dashboard Streamlit]
+[SQLite - Budgets départements]
 ```
 
 ---
 
-## 📊 Sources de données
+## Sources de données
 
 | Source | Type | Contenu |
 |---|---|---|
@@ -37,22 +37,22 @@ un dashboard interactif.
 
 ---
 
-## 🖥️ Dashboard
+## Dashboard
 
 Le dashboard Streamlit consolide les 3 sources et affiche :
 
 - **Taux de change** en temps réel avec date de dernière mise à jour
 - **KPIs ventes** : CA total, nombre de transactions, panier moyen, meilleure catégorie
-- **Ventes par département et par catégorie** — graphiques à barres
-- **Évolution mensuelle du CA** — graphique linéaire
-- **Suivi budgétaire** — tableau avec alertes automatiques si > 70% consommé
-- **Données brutes** — section dépliable pour accéder aux données sources
+- **Ventes par département et par catégorie** - graphiques à barres
+- **Évolution mensuelle du CA** - graphique linéaire
+- **Suivi budgétaire** - tableau avec alertes automatiques si > 70% consommé
+- **Données brutes** - section dépliable pour accéder aux données sources
 
 ![Exemple de Dashboard](docs/dashborard_dataflow.png)
 
 ---
 
-## 🚀 Installation & Lancement
+## Installation & Lancement
 
 ```bash
 # 1. Cloner le repo
@@ -74,7 +74,7 @@ python -m streamlit run src/dashboard.py
 
 ---
 
-## 🛠️ Stack technique
+## Stack technique
 
 | Outil | Rôle |
 |---|---|
@@ -86,7 +86,7 @@ python -m streamlit run src/dashboard.py
 
 ---
 
-## 📂 Structure du repo
+## Structure du repo
 
 ```
 dataflow/
@@ -103,7 +103,7 @@ dataflow/
 
 ---
 
-## 💡 Améliorations possibles
+## Améliorations possibles
 
 - Ajout d'un scheduler automatique (APScheduler) pour rafraîchir l'ETL toutes les heures
 - Connexion à une vraie source ERP ou API comptable
@@ -112,9 +112,9 @@ dataflow/
 
 ---
 
-## 👤 Auteur
+## Auteur
 
-**Déhollin HOLLAT** — Chef de Projet Data IA
+**Déhollin HOLLAT** - Chef de Projet Data IA
 
 
 
