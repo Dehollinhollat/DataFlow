@@ -1,4 +1,4 @@
-# 📋 Méthodologie — DataFlow
+# Méthodologie — DataFlow
 
 ## 1. Contexte et objectif
 
